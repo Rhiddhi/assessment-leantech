@@ -16,7 +16,7 @@ npm install
 
 ## Run tests
 
-This framework user [WebdriverIO](https://webdriver.io/) as the main framework for code automation . Please refer to the library [docs](https://webdriver.io/docs/gettingstarted) and [API](https://webdriver.io/docs/api) for further details.
+This framework user [WebdriverIO](https://webdriver.io/) as the main library for code automation . Please refer to the library [docs](https://webdriver.io/docs/gettingstarted) and [API](https://webdriver.io/docs/api) for further details.
 Please use the following command from root directory to run tests :
 ```
 npm run test:local
