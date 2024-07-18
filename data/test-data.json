@@ -1,0 +1,28 @@
+{
+    "LoginPageData":{
+        "pageTitle":"Swag Labs"
+    },
+    "productsPageData":{
+        "pageUrl":"/inventory.html",
+        "pageTitle":"Products"
+    },
+    "cartPageData":{
+        "pageUrl":"/cart.html",
+        "pageTitle":"Your Cart"
+    },
+    "buyerInfoPageData":{
+        "pageUrl" : "/checkout-step-one.html",
+        "pageTitle":"Checkout: Your Information",
+        "buyerFirstName":"Rhiddhi",
+        "buyerLastName":"Gupta",
+        "buyerPostalCode":"411027"
+    },
+    "checkoutOverviewPage":{
+        "pageUrl":"/checkout-step-two.html",
+        "pageTitle" :"Checkout: Overview"
+    },
+    "successPageData":{
+        "successMessageHeader" : "Thank you for your order!",
+        "successMessageBody" : "Your order has been dispatched, and will arrive just as fast as the pony can get there!"
+    }
+}
