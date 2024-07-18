@@ -24,7 +24,7 @@ npm run test:local
 
 ## Generating reports 
 In order to generate report for the test execution we use [allure framework](https://allurereport.org/docs/). 
-Please refer to the following usage information allure CLI globally on your machine and generate report  : 
+Please refer to the following usage information to install allure CLI globally on your machine and generate report  : 
 ```
 1) Install allure CLI using command: 
 npm install -g allure-commandline
