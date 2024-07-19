@@ -42,9 +42,9 @@ class ProductSteps{
         let randomProductAddButton;
         let randomProductIndex;
         let isTrue=true;
+        // This loop prevents from generating duplicate index and selecting same product multiple times
         while(isTrue){
             randomProductIndex = Math.floor(Math.random()*((await ProductPage.products.length - 1)-0+1)+0);
-            console.log("INDEXES" , randomProductIndex);
             randomProductAddButton = await ProductPage.products[randomProductIndex].$('button');
             if(((await randomProductAddButton.getAttribute('data-test')).split('-').includes('remove')) === false){
                 isTrue=false;
